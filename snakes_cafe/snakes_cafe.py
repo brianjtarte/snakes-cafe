@@ -8,6 +8,7 @@ def welcomeMsg():
 **************************************
 """)
 
+
 def menuItems():
     print("""
 Appetizers
@@ -36,11 +37,12 @@ Tea
 Unicorn Tears
 """)
 
+
 def orderMsg():
-   print ("""
-    ***********************************
-    ** What would you like to order? **
-    ***********************************
+    print("""
+***********************************
+** What would you like to order? **
+***********************************
     """)
 
 
@@ -69,28 +71,22 @@ def orderedMenu():
             menulist[user_order] += 1
 
             if menulist[user_order] == 1:
-                print(f'** {menulist[user_order]} order of {user_order} has been ordered **')
-
+                print('')
+                print(f'** {menulist[user_order]} order of {user_order} has been added to your meal **')
+                print('')
             elif menulist[user_order] > 1:
-                print(f'** {menulist[user_order]} orders of {user_order} have been ordered **')
-
+                print('')
+                print(f'** {menulist[user_order]} orders of {user_order} have been added to your meal **')
+                print('')
         elif user_order == 'quit':
-                exit()
+            exit()
 
         else:
-                print('That item does not exist')
+            print('That item does not exist')
 
 
-
-if __name__=="__main__":
-
+if __name__ == "__main__":
     welcomeMsg()
     menuItems()
     orderMsg()
     orderedMenu()
-
-
-
-
-
-

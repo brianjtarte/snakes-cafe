@@ -1,20 +1,13 @@
 # LAB - Class 01
 ## Project: Snakes-Cafe
 ### Author: Brian Tarte
+#### Collaborator(s): Marni Hager
 
-Links and Resources
-back-end server url (when applicable)
-front-end application (when applicable)
-Setup
-.env requirements (where applicable)
-i.e.
+**Links and Resources:**
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
-How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
-Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+1. [FreeCodeCamp](https://www.freecodecamp.org/news/if-name-main-python-example/#:~:text=We%20can%20use%20an%20if,name%20if%20it%20is%20imported.)
+2. [PythonGuides](https://pythonguides.com/python-dictionary-increment-value/)
+
+
+*Initialize application: python snakes_cafe/snakes_cafe.py* 
+
